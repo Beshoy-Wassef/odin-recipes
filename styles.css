@@ -1,0 +1,68 @@
+/* 
+Things I would like to play with the most: 
+    - Display (flex, block, inline)
+    - Box model (padding, margins)
+    - width and height
+    - div and span
+*/
+
+* {
+    font-family:'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+h1 {
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+}
+
+.links{
+    padding: 20px;
+    margin:auto;
+    width: 400px;
+    border: 2px solid black;
+    margin-left: 700px;
+
+
+}
+
+.links li{
+    display: inline;
+    margin:auto;
+    color: red;
+
+}
+
+button {
+    padding: 5px;
+    background-color: #007bff;
+
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+
+
+}
+
+.Ingredients {
+    border: 2px solid black;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.paddingIngredients {
+    padding-left: 10px;
+}
+
+.steps_width{
+    border: 2px solid black;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+img {
+    height:auto;
+    width: 500px;
+}
